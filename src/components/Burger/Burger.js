@@ -19,6 +19,7 @@ const burger = (props) => {
   console.log(transformedIngredients);
   return (
     <div className={classes.Burger}>
+      <button onClick={props.startOver}>Start Over</button>
       <BurgerIngredient type="bread-top" />
       {transformedIngredients}
       <BurgerIngredient type="bread-bottom" />

@@ -7,7 +7,20 @@
   font-weight: bold;
   font-size: 1.2rem;
 }
+.Burger button {
+  display: block;
+  padding: 5px;
+  margin: auto;
+  width: 80px;
+  border: 1px solid #aa6817;
+  cursor: pointer;
+  outline: none;
+}
 
+.Burger button:hover {
+  background-color: #daa972;
+  color: white;
+}
 @media (min-width: 1000px) and (min-height: 700px) {
   .Burger {
     width: 700px;
